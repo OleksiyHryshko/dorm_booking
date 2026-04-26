@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dorm_db
+    username: admin
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate # We do not create tables automatically in production
+    show-sql: true # Show all SQL queries in the console (useful for debugging)
+    properties:
+      hibernate:
+        format_sql: true
+
+  # Flyway configuration for database migrations
+  flyway:
+    enabled: true
