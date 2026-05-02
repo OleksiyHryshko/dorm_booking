@@ -16,13 +16,13 @@ import java.time.LocalDate;
 
 @Service
 @RequiredArgsConstructor
-public class dormbooking {
+public class BookingService {
     private final BookingRepository bookingRepository;
     private final RoomRepository roomRepository;
     private final UserRepository userRepository;
 
     @Transactional
-    public Booking createBooking(Long userId, Long roomId, LocalDate checkIn, LocalDate checkOut) {
+    public Booking bookRoom(Long userId, Long roomId, LocalDate checkIn, LocalDate checkOut) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
