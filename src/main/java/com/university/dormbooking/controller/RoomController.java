@@ -1,7 +1,7 @@
 package com.university.dormbooking.controller;
 
 
-import com.university.dormbooking.Entities.Room;
+import com.university.dormbooking.entity.Room;
 import com.university.dormbooking.repository.RoomRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

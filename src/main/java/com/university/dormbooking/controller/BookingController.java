@@ -1,7 +1,7 @@
 package com.university.dormbooking.controller;
 
 
-import com.university.dormbooking.Entities.Booking;
+import com.university.dormbooking.entity.Booking;
 import com.university.dormbooking.dto.BookingRequest;
 import com.university.dormbooking.service.BookingService;
 import lombok.RequiredArgsConstructor;

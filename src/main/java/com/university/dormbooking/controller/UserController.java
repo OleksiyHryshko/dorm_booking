@@ -1,7 +1,7 @@
 package com.university.dormbooking.controller;
 
 
-import com.university.dormbooking.Entities.User;
+import com.university.dormbooking.entity.User;
 import com.university.dormbooking.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

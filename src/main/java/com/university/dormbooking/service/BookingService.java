@@ -1,9 +1,9 @@
 package com.university.dormbooking.service;
 
 
-import com.university.dormbooking.Entities.Booking;
-import com.university.dormbooking.Entities.Room;
-import com.university.dormbooking.Entities.User;
+import com.university.dormbooking.entity.Booking;
+import com.university.dormbooking.entity.Room;
+import com.university.dormbooking.entity.User;
 import com.university.dormbooking.repository.BookingRepository;
 import com.university.dormbooking.repository.RoomRepository;
 import com.university.dormbooking.repository.UserRepository;

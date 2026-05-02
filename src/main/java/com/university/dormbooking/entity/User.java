@@ -1,4 +1,4 @@
-package com.university.dormbooking.Entities;
+package com.university.dormbooking.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,6 +1,6 @@
 package com.university.dormbooking.repository;
 
-import com.university.dormbooking.Entities.Booking;
+import com.university.dormbooking.entity.Booking;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
