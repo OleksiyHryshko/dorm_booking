@@ -9,7 +9,9 @@ CREATE TABLE rooms (
                        id BIGSERIAL PRIMARY KEY,
                        room_number VARCHAR(50) NOT NULL UNIQUE,
                        capacity INT NOT NULL,
-                       price_per_month DECIMAL(10, 2) NOT NULL
+                       price_per_month DECIMAL(10, 2) NOT NULL,
+                       version BIGINT NOT NULL DEFAULT 0
+
 );
 
 CREATE TABLE bookings (
